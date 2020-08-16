@@ -6,7 +6,7 @@ I was looking for a SenseHAT Emulator for Windows, however, I could not find any
 
 Using my not-so-efficient scripting language "Cell Script", you can animate the cells with simple to understand code. 
 
-#Example Code:
+## Example Code:
 ```
 // Create a function called "draw_c
 func draw_c
@@ -18,11 +18,11 @@ end
 // call draw_c
 draw_c
 ```
-Result:
+## Result:
 <p><img src="https://i.imgur.com/Cb8nCAi.png"/></p>
 
 My program is not perfect right now with random crashes, but I'm still working on it.
 
-#Requirements
+## Requirements
 - Python (v3.8)
 - Turtle
