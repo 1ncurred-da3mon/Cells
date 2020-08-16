@@ -1,0 +1,69 @@
+/*
+
+	Currently does not support comments after statements. (FIX LATER)
+	NO LOOPS OR TEST (IF/ELSE) STATEMENTS IMPLEMENTED YET
+
+	supports built in colors with turtle or supports html color codes
+
+	functions do NOT support paramters yet
+
+*/
+
+// function declarations do not require a ':' at the end
+func clear
+	// Clears the senser
+
+	set #787878
+end
+
+// function can include them if desired
+func drawA:
+
+	// Draws A
+	set a2 a3 b1 b4 c1 c2 c3 c4 d1 d4 e1 e4 cyan
+end
+
+func dotmove
+
+	/*
+		moves the dot left and right
+	*/
+
+	set a0 rand_color
+	slp 0.2
+	set a0 #787878
+	set a1 rand_color
+
+	slp 0.2
+	set a1 #787878
+	set a2 rand_color
+
+	slp 0.2
+	set a2 #787878
+	set a3 rand_color
+
+	slp 0.2
+	set a3 #787878
+	set a4 rand_color
+
+	slp 0.2
+	set a4 #787878
+	set a5 rand_color
+
+	slp 0.5
+	set a5 #787878
+end
+
+func fill_random
+
+	// fills entire grid with random colors
+
+	set rand_color
+end
+
+func fill_a_random
+
+	// fills the A row with random colors
+
+	set a rand_color
+end
